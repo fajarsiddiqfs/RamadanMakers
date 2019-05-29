@@ -1,0 +1,17 @@
+nav img {
+    width: 30px;
+    cursor: pointer;
+}
+
+nav {
+    padding: 20px;
+}
+
+.header-section {
+    text-align: center !important;
+}
+
+.header-section p {
+    width: 60%;
+    margin: 0px auto;
+}
