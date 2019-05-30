@@ -5,7 +5,7 @@ import { Container, Wrapper, Image, ProjectInfo, ProjectName, ProjectMaker } fro
 
 const Card = ({ item }) => (
   <Container>
-    <Wrapper href={`https://${item.website}`} target="_blank" rel="noopener noreferrer">
+    <Wrapper href={item.website} target="_blank" rel="noopener noreferrer">
       <Image
         src={item.icon}
         alt={item.appname}
