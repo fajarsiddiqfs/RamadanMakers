@@ -1,140 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
 .indie-comunity {
-    text-align: center;
-}
-
-.indie-comunity h1 {
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-.indie-comunity p {
-    line-height: 1.5rem;
-    margin-bottom: 40px;
-}
-
-.indie-comunity img{
-    width: 100%;
+  text-align: center;
 }
 
 .button {
-    display: inline-flex;
-    font-size: 14px;
-    letter-spacing: 0px;
-    font-weight: 700;
-    line-height: 16px;
-    text-transform: uppercase;
-    text-decoration: none !important;
-    background-color: #040404;
-    color: #3217BB !important;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    justify-content: center;
-    padding: 16px 40px;
-    height: 48px;
-    text-align: center;
-    white-space: nowrap
+  display: inline-flex;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  background-color: #040404;
+  color: #3217bb !important;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  justify-content: center;
+  padding: 16px 40px;
+  height: 48px;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .button:active {
-    outline: 0
+  outline: 0;
 }
 
 .button::before {
-    border-radius: 2px
+  border-radius: 2px;
 }
 
 .button-shadow {
-    position: relative
+  position: relative;
 }
 
 .button-shadow::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0 8px 48px rgba(50, 23, 187, 0.48);
-    transition: box-shadow .15s ease
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 8px 48px rgba(50, 23, 187, 0.48);
+  transition: box-shadow 0.15s ease;
 }
 
 .button-shadow:hover::before {
-    box-shadow: 0 8px 48px rgba(50, 23, 187, 0.6)
+  box-shadow: 0 8px 48px rgba(50, 23, 187, 0.6);
 }
 
 .button-sm {
-    padding: 8px 24px;
-    height: 32px
+  padding: 8px 24px;
+  height: 32px;
 }
 
 .button-sm.button-shadow::before {
-    box-shadow: 0 4px 32px rgba(50, 23, 187, 0.48)
+  box-shadow: 0 4px 32px rgba(50, 23, 187, 0.48);
 }
 
 .button-sm.button-shadow:hover::before {
-    box-shadow: 0 4px 32px rgba(50, 23, 187, 0.6)
+  box-shadow: 0 4px 32px rgba(50, 23, 187, 0.6);
 }
 
 .button-primary {
-    color: #fff !important;
-    transition: background .15s ease
+  color: #fff !important;
+  transition: background 0.15s ease;
 }
 
 .button-primary {
-    background: #52a6f8;
-    background: linear-gradient(65deg, #1f64a7 0, #52a6f8 100%)
+  background: #52a6f8;
+  background: linear-gradient(65deg, #1f64a7 0, #52a6f8 100%);
 }
 
 .button-primary:hover {
-    background: #1f64a7;
-    background: linear-gradient(65deg, #00d4ab 0, #51a998 100%)
+  background: #1f64a7;
+  background: linear-gradient(65deg, #00d4ab 0, #51a998 100%);
 }
 
 .button-block {
-    display: flex
+  display: flex;
 }
 
 .app-list {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
-.app-card .card{
-    margin-bottom: 20px;
-    padding: 0px !important;
-    background-color: #225371 !important;
+.card-link {
+  text-decoration: none;
+  color: #fff;
 }
 
-.app-card .card-body{
-    padding: 20px 10px !important;
+.card-link:hover {
+  color: #fff;
+}
+
+.app-card .card {
+  margin-bottom: 20px;
+  padding: 0px !important;
+  background-color: #225371 !important;
+}
+
+.app-card .card-body {
+  padding: 20px 10px !important;
 }
 
 .card-head {
-    display: flex;
+  display: flex;
 }
 
 .card-head .card-info {
-    align-self: center;
-    padding-left: 10px;
+  align-self: center;
+  padding-left: 10px;
 }
 .card-head .card-info a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .card-head h4 {
-    font-size: 18px;
-    padding: 0 !important;
-    margin: 0 !important;
+  font-size: 18px;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .card-head .subtitle {
-    font-size: 13px;
-    margin: 0 !important;
-    padding: 0 !important;
+  font-size: 13px;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .card-head img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }

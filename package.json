@@ -5,9 +5,13 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.11",
     "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0",
     "gatsby": "^2.7.3",
     "gatsby-image": "^2.1.1",
+    "gatsby-plugin-emotion": "^4.0.7",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.1",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.2",
@@ -26,7 +30,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
-    "dotenv": "^8.0.0",
     "eslint": "^5.14.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
