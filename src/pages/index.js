@@ -5,10 +5,11 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import LinkCard from '../components/Card';
 
+import SupportImage from '../images/Makerlog.svg';
 import telegramImage from '../images/RMtelegram.png';
 import '../components/index.css';
 
-import { CardContainer, SectionTitle, PageDescription, SectionImage } from '../styles';
+import { CardContainer, SectionTitle, PageDescription, SectionImage, Makerlog, SectionCTA } from '../styles';
 
 function IndexPage({ data }) {
   const list = data.allGoogleSheetSheet1.edges;
@@ -32,11 +33,12 @@ function IndexPage({ data }) {
           create positive vibes. Use the Hashtag #ramadanmakers when logging your tasks on makerlog and pair your
           Makerlog account to telegram with @makerlogbot
         </PageDescription>
-        <div className="section-cta">
+        <SectionCTA>
           <a className="button button-primary button-shadow" href="https://t.me/openstudio">
             Join Now
           </a>
-        </div>
+        </SectionCTA>
+        <Makerlog src={SupportImage} />
       </div>
     </Layout>
   );

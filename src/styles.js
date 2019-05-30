@@ -66,3 +66,10 @@ export const CardContainer = styled.div`
     grid-template-columns: calc(33.33% - 16px) calc(33.33% - 16px) calc(33.33% - 16px);
   }
 `;
+
+export const SectionCTA = styled.div`
+  margin-bottom: 56px;
+`;
+export const Makerlog = styled.img`
+  width: 200px;
+`;
