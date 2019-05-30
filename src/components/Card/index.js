@@ -7,7 +7,7 @@ const Card = ({ item }) => (
   <Container>
     <Wrapper href={`https://${item.website}`} target="_blank" rel="noopener noreferrer">
       <Image
-        src={`//logo.clearbit.com/${item.website}`}
+        src={item.icon}
         alt={item.appname}
         onError={e => {
           e.target.onerror = null;

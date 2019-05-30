@@ -53,6 +53,7 @@ export const pageQuery = graphql`
           appname
           submittedby
           website
+          icon
         }
       }
     }
