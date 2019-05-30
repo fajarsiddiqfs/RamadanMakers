@@ -11,6 +11,7 @@ export const PageTitle = styled.h1`
   margin: 0;
   font-size: 20px;
   margin-bottom: 40px;
+  font-weight: bold;
   @media (min-width: 768px) {
     font-size: 35px;
   }
@@ -32,14 +33,15 @@ export const PageDescription = styled.p`
 `;
 export const SectionTitle = styled.h2`
   margin: 0;
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 40px;
   text-align: center;
+  font-weight: bold;
   @media (min-width: 768px) {
-    font-size: 35px;
+    font-size: 28px;
   }
   @media (min-width: 1024px) {
-    font-size: 45px;
+    font-size: 35px;
   }
 `;
 export const SectionImage = styled.img`

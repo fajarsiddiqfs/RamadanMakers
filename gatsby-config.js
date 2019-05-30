@@ -1,9 +1,9 @@
-require('dotenv').config()
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Ramadhan Makers`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Ramadan Makers`,
+    description: `We are from Indie-Makers Community from all around the world. Our goal is to inspire more muslim entrepreneurs, digital nomads, designers, developers & makers.`,
     author: `@RamadanMakers`,
   },
   plugins: [
@@ -61,4 +61,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
   ],
-}
+};

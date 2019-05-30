@@ -21,7 +21,6 @@ export const Wrapper = styled.a`
 
 export const Image = styled.img`
   width: 40px;
-  height: 40px;
 `;
 
 export const ProjectInfo = styled.div`

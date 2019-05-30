@@ -16,7 +16,7 @@ function IndexPage({ data }) {
   return (
     <Layout>
       <SEO title="Home" />
-      <SectionTitle>Project by Mulsim Makers</SectionTitle>
+      <SectionTitle>Projects by Muslim Makers</SectionTitle>
       <CardContainer>
         {list.map(item => (
           <LinkCard key={item.node.appname} item={item.node} />
