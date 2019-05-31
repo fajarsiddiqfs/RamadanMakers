@@ -34,7 +34,7 @@ function IndexPage({ data }) {
           Makerlog account to telegram with @makerlogbot
         </PageDescription>
         <SectionCTA>
-          <a className="button button-primary button-shadow" href="https://t.me/openstudio">
+          <a className="button button-primary button-shadow" href="Https://t.me/ramadanmakers">
             Join Now
           </a>
         </SectionCTA>
