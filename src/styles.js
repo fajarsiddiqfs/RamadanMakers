@@ -23,7 +23,7 @@ export const PageDescription = styled.p`
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   line-height: 1.5;
   font-size: 14px;
   @media (min-width: 768px) {
@@ -72,4 +72,8 @@ export const SectionCTA = styled.div`
 `;
 export const Makerlog = styled.img`
   width: 200px;
+`;
+
+export const FeaturedImage = styled.img`
+  margin-bottom: 80px;
 `;
