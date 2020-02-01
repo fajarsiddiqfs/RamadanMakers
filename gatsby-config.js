@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-emotion',
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-source-google-sheet`,
       options: {
