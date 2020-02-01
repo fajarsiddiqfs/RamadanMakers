@@ -71,7 +71,7 @@ function Footer() {
                             </a>
                         </li>
                     </ul>
-                    <div className="footer-copyright">© 2019 RamadanMakers.com</div>
+                    <div className="footer-copyright">© 2019-2020 RamadanMakers.com</div>
                 </div>
             </div>
         </footer>
